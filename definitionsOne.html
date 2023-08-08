@@ -1,0 +1,114 @@
+<!DOCTYPE htlm>
+<html>
+<head>
+<title>Definitions One</title>
+
+<!-- Bootstrap CSS -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- Navigation bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- home page-->>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- questions pages-->>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Questions
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="questionsOne.html">Questions Group One</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="questionsTwo.html">Questions Group Two</a></li>
+              </ul>
+            </li>
+            <!-- definitions pages-->>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Definitions
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="definitionsOne.html">Definitions Group One</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="definitionsTwo.html">Definitions Group Two</a></li>
+            </ul>
+          </li>
+          <!--contact page-->>
+            <li class="nav-item">
+            <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </li>
+          </ul>
+        </div>
+      </div>
+</nav>
+
+<h1>Definitions</h1>
+<P><i>Group One</i></p>
+<div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Authentication and web security.
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+          Authentication: Authentication is the process of verifying the identity of a user or system before granting access to specific resources or services. It ensures that only authorized individuals or entities can gain entry, usually by using login credentials, biometrics, or multi-factor authentication methods.<br>
+		  Web Security: Web security involves safeguarding websites and web applications from potential threats and vulnerabilities. It includes measures to protect against unauthorized access, data breaches, malicious attacks, and other risks to maintain the confidentiality, integrity, and availability of web assets and user data.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Hypertext transfer protocol (HTTP).
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" style="">
+          <div class="accordion-body">
+          Hypertext Transfer Protocol (HTTP) is a fundamental protocol used for communication on the World Wide Web. It enables the transfer of data between clients (such as web browsers) and servers, facilitating the retrieval and display of web pages, resources, and multimedia content, through requests and responses.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Session management.
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          Session management refers to the process of maintaining and tracking user interactions during a browsing session on a website or web application. It involves generating and managing session identifiers, usually in the form of cookies or tokens, to associate user data with their session, allowing personalized and secure user experiences across multiple requests and pages.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Stateless programming.
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+        Stateless programming refers to a programming paradigm where each request or transaction is processed independently, without relying on previous interactions. The server does not store any session data between requests, and all necessary information is sent by the client with each request, making the system more scalable, efficient, and easier to maintain.
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Bootstrap CSS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
